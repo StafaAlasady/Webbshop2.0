@@ -2,7 +2,7 @@ import React from 'react'
 import './Hero.css'
 import HomeHeartlineIcon from 'remixicon-react/HomeHeartLineIcon'
 import ArrowRightLineIcon from 'remixicon-react/ArrowRightLineIcon'
-import Astronoutfloating from '../Assets/Astronout-floating.jpg'
+import Astronoutfloating from '../Assets/Astronout-floating(1).png'
 
 export const Hero = () => {
   return (
