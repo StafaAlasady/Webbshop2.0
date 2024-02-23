@@ -21,7 +21,6 @@ export const Navbar = () => {
   </ul>
   <div className='nav-login-cart'>
     <Link to='/Login'><button>Login</button></Link>
-      {/* The default color is the current text color (currentColor) */}
       <Link to='/Cart'> <ShoppingCart2LineIcon className='cart-icon' /></Link>
       <div className='nav-cart-count'>0</div>
   </div>

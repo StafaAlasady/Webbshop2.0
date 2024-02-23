@@ -31,7 +31,8 @@
     gap: 20px;
 }
 .home-icon-properties{
-    width: 105px;
+    width: 80px;
+    height: 80px;
 }
 .hero-latest-button{
     display: flex;
