@@ -1,6 +1,6 @@
 import img_1 from '../Assets/img_1city.jpg'
 import img_2 from '../Assets/img_2black-whitecity.jpg'
-import img_3 from '../Assets/img_3Big-Man.jpg'
+import img_3 from '../Assets/img_3RealPac.jpg'
 import img_4 from '../Assets/img_4newyork-smokingman.jpg'
 
 
@@ -21,7 +21,7 @@ let data_product = [
   },
   {
     id: 3,
-    name: 'Punch club man',
+    name: 'Police Brutality 2 pac',
     image: img_3,
     new_price:550.00,
     old_price:800.00,

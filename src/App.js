@@ -9,6 +9,7 @@ import { LoginSignup } from './Pages/LoginSignup';
 import { Home } from './Pages/Home';
 import { Explore } from './Pages/Explore';
 import { ContactUs } from './Pages/Contact-us';
+import { Footer } from './Components/Footer/Footer';
 
 
 
@@ -31,6 +32,7 @@ function App() {
         <Route path='/Cart' element={<Cart/>}/>
         <Route path='/Login' element={<LoginSignup/>}/>
       </Routes>
+      <Footer/>
       </BrowserRouter>
     </div>
   );

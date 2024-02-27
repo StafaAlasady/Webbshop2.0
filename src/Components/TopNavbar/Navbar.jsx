@@ -11,7 +11,7 @@ export const Navbar = () => {
 <div className='navbar'>
   <div className='nav-logo'>
     <img src={logo} alt="" className='navbar-logo'/>
-    <p>AI.ART</p>
+    <p>PixelProAI.Art</p>
   </div>
   <ul className='nav-menu'>
     <li onClick={()=>{setMenu("Home")}}><Link style={{ textDecoration:'none'}} to='/'>Home </Link>{menu==="Home"?<hr/>:<></>} </li>

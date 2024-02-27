@@ -22,5 +22,10 @@
 .popular-item{
     margin-top: 50px;
     display: flex;
-    gap: 500px;
+    gap: 140px;
+}
+
+.popular-item img{
+    width: 450px;
+    height: auto;
 }
