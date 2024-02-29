@@ -30,10 +30,10 @@ export const Footer = () => {
                 <div className="col">
                     <h3>Links <div className="underline-anim"><span></span></div></h3>
                     <ul>
-                        <li className="footer-li"><a className="footer-links" href="">Home</a></li>
-                        <li className="footer-li"><a className="footer-links" href="">Explore</a></li>
-                        <li className="footer-li"><a className="footer-links" href="">MarketPlace</a></li>
-                        <li className="footer-li"><a className="footer-links" href="">Contact Us</a></li>
+                        <li className="footer-li"><a className="footer-links" href="/">Home</a></li>
+                        <li className="footer-li"><a className="footer-links" href="/explore">Explore</a></li>
+                        <li className="footer-li"><a className="footer-links" href="/marketplace">MarketPlace</a></li>
+                        <li className="footer-li"><a className="footer-links" href="/Contact-us">Contact Us</a></li>
                     </ul>
                 </div>
                 <div className="col">
