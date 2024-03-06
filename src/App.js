@@ -6,10 +6,11 @@ import { Product } from './Pages/Product';
 import { MarketPlaceCategory } from './Pages/MarketPlaceCategory';
 import { Cart } from './Pages/Cart';
 import { LoginSignup } from './Pages/LoginSignup';
-import { Home } from './Pages/Home';
+import { MarketPlace } from './Pages/MarketPlace';
 import { Explore } from './Pages/Explore';
 import { ContactUs } from './Pages/Contact-us';
 import { Footer } from './Components/Footer/Footer';
+import MarketPlaceBanner from './Components/Assets/Banner1.png'
 
 
 
@@ -20,8 +21,8 @@ function App() {
       <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/MarketPlace' element={<MarketPlaceCategory category="Artworks"/>}/>
+        <Route path='/' element={<MarketPlace/>}/>
+        <Route path='/MarketPlace' element={<MarketPlaceCategory banner={MarketPlaceBanner} category="Artworks"/>}/>
         <Route path="/Explore" element={<Explore/>}/>
         <Route path="/Contact-us" element={<ContactUs/>}/>
         <Route path="/Product" element={<Product/>}>

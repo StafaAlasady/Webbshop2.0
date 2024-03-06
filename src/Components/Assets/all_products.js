@@ -30,7 +30,6 @@ import img_29 from '../Assets/img_29back in thedaycar.jpg'
 import img_30 from '../Assets/img_30Black-white-astronout.jpg'
 
 
-
 let all_product = [
   {
     id: 1,
@@ -242,6 +241,7 @@ let all_product = [
     new_price:500.00,
     old_price:800.00,
   },
+
   // Add more image objects as needed
 ];
 
