@@ -1,5 +1,5 @@
-.marketplacecategory-banner{
+.marketplacebanner{
     display: block;
-    margin: 30px;
+    margin: 30px auto;
     width: 82%;
 }
