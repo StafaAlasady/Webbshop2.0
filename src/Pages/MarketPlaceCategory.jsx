@@ -11,7 +11,7 @@ export const MarketPlaceCategory = (props) => {
       <img src={props.banner} className='marketplacebanner' alt=''/>
       <div className='MarketPlaceCategory-indexsort'>
         <p>
-          <span>Showing 1-12</span> out of 36 products
+          <span>Showing 1-12</span> out of 56 products
         </p>
         <div className="marketplacecategory-sort">
           sort by <ArrowDropDownLineIcon className='dropdown-icon'/>
@@ -31,6 +31,9 @@ export const MarketPlaceCategory = (props) => {
             return null;
           }
         })}
+      </div>
+      <div className="MarketPlaceCategory-loadmore">
+        Explore More
       </div>
     </div>
   )

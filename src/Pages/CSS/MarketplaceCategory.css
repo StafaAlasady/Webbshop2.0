@@ -3,3 +3,46 @@
     margin: 30px auto;
     width: 82%;
 }
+
+.MarketPlaceCategory-indexsort{
+    display: flex;
+    margin: 0px 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marketplacecategory-sort{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+}
+
+.MarketPlaceCategory-indexsort p span{
+    font-weight: 600;
+}
+
+.MarketPlaceCategory-products{
+    margin: 20px 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+}
+
+.MarketPlaceCategory-products img{
+    max-width: 400px;
+    max-height: 450px;
+}
+
+.MarketPlaceCategory-loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background: #84448e;
+    color: #f3ecec;
+    font-size: 18px;
+    font-weight: 500;
+}
