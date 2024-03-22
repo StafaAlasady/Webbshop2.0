@@ -44,7 +44,7 @@ export const Footer = () => {
                         <button className="footer-button" type="submit"><ArrowRightLineIcon className="ri-arrow-right-line"/></button>
                     </form>
                     <div className="social-icons">
-                        <FacebookCircleLineIcon className=" ico ri-facebook-circle-line"/>
+                        <FacebookCircleLineIcon className="ico ri-facebook-circle-line"/>
                         <TwitterLineIcon className="ico ri-twitter-line"/>
                         <InstagramLineIcon className="ico ri-instagram-line"/>
                         <PinterestLineIcon className="ico ri-pinterest-line"/>

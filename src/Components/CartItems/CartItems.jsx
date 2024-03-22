@@ -39,7 +39,7 @@ export const CartItems = () => {
                 <div>
                     <div className="cartitems-total-item">
                         <p>Subtotal</p>
-                        <p>{getTotalCartAmmount}KR</p>
+                        <p>{getTotalCartAmmount()}KR</p>
                     </div>
                     <hr />
                     <div className="cartitems-total-item">
@@ -49,7 +49,7 @@ export const CartItems = () => {
                     <hr />
                     <div className="cartitems-total-item">
                         <h3>Total</h3>
-                        <h3>{getTotalCartAmmount}KR</h3>
+                        <h3>{getTotalCartAmmount()}KR</h3>
                     </div>
                 </div>
                 <button>PROCEED TO CHECKOUT</button>

@@ -46,6 +46,8 @@ import img_45 from '../Assets/img_45.jpg'
 import img_46 from '../Assets/img_46.jpg'
 import img_47 from '../Assets/img_47.jpg'
 import img_48 from '../Assets/img_48.jpg'
+import img_49 from '../Assets/img_49.jpg'
+import img_50 from '../Assets/img_50.jpg'
 
 
 let all_product = [
@@ -385,6 +387,20 @@ let all_product = [
     id: 48,
     name: 'Football planet decintegrating',
     image: img_48,
+    new_price:1500.00,
+    old_price:2800.00,
+  },
+  {
+    id: 49,
+    name: 'Dancing Robot Made from boombox',
+    image: img_49,
+    new_price:1500.00,
+    old_price:2800.00,
+  },
+  {
+    id: 50,
+    name: 'Porchlean Ai Statue of the universe',
+    image: img_50,
     new_price:1500.00,
     old_price:2800.00,
   },
