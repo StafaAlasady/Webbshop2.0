@@ -22,7 +22,10 @@ export const Navbar = () => {
     <li onClick={()=>{setMenu("Contact Us")}}><Link style={{ textDecoration: 'none'}} to='/Contact-us'>Contact Us </Link>{menu==="Contact Us"?<hr/>:<></>} </li>
   </ul>
   <div className='nav-login-cart'>
-    <Link to='/Login'><button>Login</button></Link>
+    {localStorage.getItem('auth-token')
+    ?<button onClick={()=>{localStorage.removeItem('auth-token');window.location.replace('/')}}>Logout</button>
+    :<Link to='/Login'><button>Login</button></Link>}
+    
       <Link to='/Cart'> <ShoppingCart2LineIcon className='cart-icon' /></Link>
       <div className='nav-cart-count'>{getTotalCartItems()}</div>
   </div>
