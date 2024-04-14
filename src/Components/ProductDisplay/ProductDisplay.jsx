@@ -35,9 +35,10 @@ export const ProductDisplay = (props) => {
                 <div className="productdisplay-right-price-new">KR{product.new_price}</div>
             </div>
             <div className="productdisplay-right-description">
-                Inshalla walla you shall buy this product! IF you dont
-                boogie man come and rape you at night and you will cry!
-                become speedy gonzales and buy it right now!
+                Consider buying Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo conseq Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                  dolore eu fugiat nulla pariatur
             </div>
             <div className="productdisplay-right-size">
                 <h1>Select Size</h1>
